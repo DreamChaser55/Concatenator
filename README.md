@@ -36,9 +36,9 @@ python concatenator.py
 
 Import file list: In File Selection Mode, click "Add From List..." to import file paths from a text file. The file should contain one path per line. Supported:
 - Blank lines and comment lines starting with # or ;
-- Paths can be wrapped in single or double quotes;
-- Relative paths (resolved relative to the list file’s location);
-- Environment variables and ~ expansion;
+- Paths can be wrapped in single or double quotes
+- Relative paths (resolved relative to the list file’s location)
+- Environment variables and ~ expansion
 - Only allowed plain-text types are added; duplicates are skipped; missing or not-allowed entries are reported in a summary dialog.
 
 Example list file (example_list.txt):
