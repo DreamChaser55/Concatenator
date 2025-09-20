@@ -1,0 +1,5 @@
+# One path per line (comments and blanks allowed)
+"test file 1.txt"
+test file 2.txt
+; From subfolder (relative to this file)
+Test folder\test file 4.txt
